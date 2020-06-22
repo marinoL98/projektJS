@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Pocetna from '../pocetna.jpeg';
-
+import LOB from '../lob.png';
 
 
 function Prva() {
@@ -10,6 +10,7 @@ function Prva() {
       return <div className="prvicontainer">
        
        <h1 >Papiga PetShop</h1>
+          <img src={LOB}class="fischerke"></img>
           <div class="opis">
             <img src={Pocetna}class="pocetnaslika"/>
             <span>Specijaliziramo se sa uzgojem zdravih i sretnih papiga različitih vrsta sa svih kontinenata i država.
